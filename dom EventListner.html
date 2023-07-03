@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM event listners</title>
+</head>
+<style>
+    p{
+        font-size: 23px;
+    }
+</style>
+<body>
+   
+    <h1>My name i Aniket janbandhu</h1>
+    <p id="yum"></p>
+
+   <script>
+        document.addEventListener("double click",ani); 
+        //document.addEventListener("mouseover",ani); 
+       //document.addEventListener("mouseout",ani); 
+        // document.addEventListener("mousemove",ani); 
+        //document.addEventListener("click",ani); 
+        // document.addEventListener("double click",ani); 
+        function ani()
+        {
+            document.getElementById("yum").innerText="and I am from nagpur";
+        }
+
+   </script>
+
+</body>
+</html>
